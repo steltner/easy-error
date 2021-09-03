@@ -1,0 +1,29 @@
+{
+    "name": "geste/easy-error",
+    "description": "Error response generator for mezzio",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Georg Steltner",
+            "email": "georg.steltner@gmail.com"
+        }
+    ],
+    "config": {
+        "process-timeout" : 0,
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Easy\\Error\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
